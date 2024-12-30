@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  color: white;
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.1) 0,
+    rgba(255, 255, 255, 0.1) 25%,
+    rgba(255, 255, 255, 0.05) 25%,
+    rgba(255, 255, 255, 0.05) 50%
+  ),
+  url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200"><text x="10" y="20" fill="rgba(255,255,255,0.2)" font-size="16" font-family="Arial">Made by Ruiz</text></svg>');
+  background-size: 200px 200px;
+}
+
+.container {
+  margin-top: 20%;
+}
+
+.hero-image {
+  max-width: 300px;
+  border-radius: 10px;
+}
